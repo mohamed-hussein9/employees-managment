@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family:cairo;
+}
+body{
+    background: linear-gradient(
+200deg
+, #752ef3, transparent);
+}
+
+header .nav{
+    background: linear-gradient(
+45deg
+, #04b446, transparent);    height: 100px;
+    
+    
+}
+ header .nav div{
+    display: inline-block;
+    font-size: 40px;
+    font-weight:bold; 
+}
+ header .nav .logo{
+width: 29%;
+margin-top: 20px;
+color: #752ef3;
+text-align: left;
+position: relative;
+}
+ header .nav .logo img{
+    width: 99px;
+    position: absolute;
+    left: 60px;
+    top: -57px;
+}
+
+
+ header .nav .nav_det{
+width: 70%;
+text-align: center;
+margin-top: 20px;}
+ header  .search_bar{
+     height: 50px;
+    background: linear-gradient(
+45deg
+, #9692d9, transparent,#9692d9); }
+header .search_bar .search_select{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+/*================ end navigation============*/
+/*================ start index ============*/
+.container h1{
+    text-align: center;
+    
+    
+}
+.container .employee_list table{
+    
+width: 100%;
+}
+.container .employee_list table td{
+padding: 5px;}
+.container .employee_list table td>div{
+padding: 10px;
+}
+.container .employee_list> table tr:nth-child(odd){
+background-color: #91cac4;}
+
+.container .employee_list> table tr:nth-child(even){
+background-color: #6f706f;}
+
+.container .employee_list> table tr:hover{
+background-color: #a592db;}
+
+.container .employee_list{
+    width: 90%;
+    margin: auto;
+     
+    position: relative;
+}
+  .container .employee_list .controll_employee{
+       display: flex;
+       gap: 3px;
+       justify-content: center;
+    align-items: center;
+   }
+.container .employee_list .controll_employee a{
+text-decoration: none;
+color: #bababa;
+}
+
+
+/* 
+
+
+
+
+
+
+*/
+.det_btn{
+    background: linear-gradient( 
+45deg
+ , black, #04b446,black);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #bababa;
+}
+.del_btn{
+        background: linear-gradient( 
+45deg
+, black,#f10101,black );
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #bababa;
+}
+
+
+.container .employee_list .up{
+    text-decoration: none;
+    display: inline-block;
+transform: rotate(90deg);
+    font-weight: bold;
+   
+
+
+}
+
+
+.controll_employee .copy_con{
+    position: relative;
+}
+.copy_con.c{
+    display: inline;
+    position: relative;
+}
+.copy_con.c textarea{
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    resize: none;
+    left: 0px;
+    top: 40px;
+    display: none;
+}
+.controll_employee .copy_con input{
+    display: none;
+    position: absolute;
+    width: 1000px;
+    height: 41px;
+    left: 100%;
+    top: -6px;
+}
+
+
+
+
+.container .employee_list .down{
+    text-decoration: none;
+    display: inline-block;
+transform: rotate(90deg);
+    font-weight: bold;
+        
+
+
+}
+
+.container .status{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+
+.container .h1{
+    margin: 20px;
+}
+.container .h1 a
+,#add_emp_btn,.c1btn{
+    background: linear-gradient(
+83deg
+, #0db24f, #91cac4,#0db24f);
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.c2btn {
+    text-decoration: none;
+    color: #090456;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+.c2btn::after{
+    content: '';
+    display: block;
+    background-color: #e5688d;
+    width: 0;
+    height: 3px;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+.c2btn:hover::after{
+    width: 100%;
+}
+.container .h1 a:active
+,#add_emp_btn:active,.c1btn:active{
+    background: linear-gradient(
+83deg
+, #752ef3,transparent, #752ef3);
+}
+ header  .search_bar >div {
+    display: inline-block;
+    height: 100%;
+    
+ }
+   header  .search_bar >div:nth-child(1) {
+padding: 5px;
+margin-right: 20px;
+display: inline-flex;
+    gap: 20px
+ }
+  header  .search_bar >div:nth-child(1) input {
+border: 0;
+outline: none;
+padding: 10px;
+border-radius: 10px;
+transition: box-shadow 0.2s;
+
+ }
+ header  .search_bar >div:nth-child(1) input:nth-child(1):focus{
+    box-shadow: 0px 0px 4px 3px #95ebff;
+
+}
+header  .search_bar >div:nth-child(1) input:nth-child(3){
+
+
+}
+  header  .search_bar >div:nth-child(2) {
+    float: left;
+    display: flex;
+    /* position: relative; */
+    /* top: 13px; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px   
+ }
+
+
+
+ /*==============____ detaile page______============*/
+ .container .employee_list {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+     font-size: 25px;
+ }
+ .container .employee_list .details{
+     width: 40%;
+    
+ }
+ .container .employee_list .details>div>div{
+     display: inline-block;
+     width: 30%;
+ }
+ .container .employee_list .details>div:nth-child(odd){
+     
+    background-color: #9872e3;}
+
+
+
+ 
+  .container .employee_list .details>div:nth-child(even){
+     background-color: #b97bfe;
+ }
+ .container .employee_list .details>div>div:nth-child(2){
+     width: 68%;
+     
+ }
+ .container .employee_list .details >div{
+     padding:10px 0px;
+    
+ }
+
+ 
+
+
+
+   .container .employee_list .image_area{
+position: relative;
+left: 30%;
+transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   }
+.container .employee_list .image_area .id_images >div img{
+    width: 300px;
+
+}
+.container .employee_list .image_area .id_images {
+    display: flex;
+}
+   .container .employee_list .image_area .personal_image img{
+       width: 60%;
+display: block;
+margin: auto;
+       
+
+   }
+      .container .employee_list .image_area .personal_image {
+       width: 100%;
+       position: relative;
+
+   }
+   .other_images img{
+       width: 60%;
+      margin: auto;
+   }
+ 
+
+   /*============== START ADD EMPLOYEE===============*/
+.add_employee form>div>div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 40%;
+    
+   }
+   .add_employee form>div>div input{
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+
+    
+   }
+   .add_employee #select_sys {
+           margin: 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+   }
+      .add_employee form>div>div label{
+            margin: 3px 20px;
+
+      }
+    
+.add_employee form>div{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.add_employee .part1_form{
+
+    display: flex;
+    flex-direction: column;
+    
+}.add_employee .part1_form>span{
+
+    margin-right: 20px;
+    
+}
+
+.add_employee .part2_form{
+    
+    
+}
+.add_employee h1
+{
+    
+    width: fit-content;
+    margin:10px auto;
+    font-size: 30px;
+    
+}
+ .add_employee .controll_form input,
+ .add_employee .controll_form button{
+     margin:10px;
+     padding: 10px;
+     border-radius: 5px;
+     outline: none;
+     
+ }
+
+ .add_employee  input:focus{    box-shadow: -3px 4px 18px 7px green;
+ }
+ .add_employee .controll_form .c1btn{
+     padding: 10px;
+ }
+ .add_employee #target{
+         margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+ }
+ .line{
+    width: 30px;
+    margin: auto;
+    height: 5px;
+    background-color: #7cb518ff;
+    border-radius: 5px;
+    animation: linewidth 1s linear;
+    animation-iteration-count: infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes linewidth {
+
+0%   {width: 30px;}
+50%  {width: 190px;}
+
+100% {width:30px;}
+}
+.add_employee{
+    display: none;
+    position: absolute;
+    top: 0;
+    background: #0000009e;
+    width: 100%;
+    z-index: 10;
+        color: #c0c3c0;
+
+
+}
+.login{
+    width: 100%;
+    height: 100vh;
+background: linear-gradient(
+200deg
+, #752ef3, transparent);
+    position: relative;
+}
+.login>div{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login>div>h1{
+    width: fit-content;
+    margin: auto;
+}
+.login>div>form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.login>div>form>input{
+padding: 5px;
+font-size: 30px;
+border-radius: 10px;
+outline: none;
+border: 1px solid #752ef3;
+}
+.login>div>form>input[type="submit"]{
+
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    position: relative;
+    
+}
+footer>div:nth-child(2){
+    position: absolute;
+    font-size: 13px;
+    bottom:5px;
+    left: 10px;
+}
+.copy_det{
+    position: relative;
+    margin-right: 5%;
+
+}
+.copy_det .copy{
+    display: none;
+    position: absolute;
+        z-index: 3;
+
+}
+.copy_det .copy_show{
+    width: fit-content;
+    
+}
+
+/* about page */
+.about_container{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 30px;
+    color: #383f63;
+
+}
+.about-img{
+    grid-column: 1/2;
+}
+.about-img > img{
+    width: 100%;
+}
+.about-info{
+    grid-column: 2/4;
+    text-align: left;
+}
+.about-contact{
+    grid-column: 1/4;
+    text-align: center;
+
+}
+
+
+/* additional */
+/* .drop_det_parent{
+    position: relative;
+} */
+/* .drop_det{
+    width: 58px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 77%;
+    display: none;
+} */
+.div_dropdown{
+display: none;}
+.top_drop_table{
+    display: none;
+}
+.drop-hide{
+    background: #4edb5a ;
+    display: none;
+    cursor: pointer;
+}
+
+

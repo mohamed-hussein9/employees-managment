@@ -1,0 +1,191 @@
+header .nav .nav_det {
+      font-size: 30px;
+}
+
+
+ header .nav .logo{
+   
+/*$$$$$$$$$*/
+
+}
+header .nav .logo img
+{
+    width: 98px;
+    top: -44px;
+    left: 50px;
+}
+
+
+ 
+ header  .search_bar{
+         display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+/*================ end navigation============*/
+/*================ start index ============*/
+.container{
+        width: 1005;
+}
+
+.container .employee_list table td{
+            /*$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+padding: 5px;
+}
+
+
+ header  .search_bar form{
+         padding: 10px;
+ }
+   header  .search_bar >div:nth-child(1) {
+padding: 5px;
+margin-right: 20px;
+    display: inline;   
+        margin-top: 10px 
+        /*$$$$$$$$$$$$$$$$$$*/
+ }
+
+  header  .search_bar >div:nth-child(2) {
+      margin: 5px;
+   /*$$$$$$$$$$$$$$$*/
+ }
+
+
+
+ /*==============____ detaile page______============*/
+ .container .employee_list {
+/*$$$$$$$$$$$$$$$$$$$$$$$$$*/
+flex-direction: column;     
+     
+     
+ }
+ .container .employee_list .details{
+     width: 100%;
+               /*$$$$$$$$$$$$$$$$$$*/
+
+    
+ }
+ .container .employee_list .details>div>div{
+     display: inline-block;
+     width: 43%;
+          /*$$$$$$$$$$$$$$$$$$*/
+
+ }
+ 
+ .container .employee_list .details>div>div:nth-child(2){
+     /*$$$$$$$$$$$$$$$$$$*/
+     width: 55%;
+     
+ }
+
+
+ 
+
+
+
+   .container .employee_list .image_area{
+/*$$$$$$$$$$$$$$$$$$$$$$$$$*/
+left: 0px;
+transform: translateX(0);
+   }
+.container .employee_list .image_area .id_images >div img{
+           /*$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+    width: 100%;
+
+}
+.container .employee_list .image_area .id_images >div{
+    /*$$$$$$$$$*/
+    margin: auto;
+
+}
+
+   .container .employee_list .image_area .personal_image img{
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+       width: 100%;
+
+       
+
+   }
+   .container .employee_list .image_area .id_images{
+    /*$$$$$$$$$*/
+      display: flex;
+    flex-direction: column;
+
+}
+     
+
+   /*============== START login===============*/
+
+
+
+
+.login>div {
+    width: 85%;
+ 
+    transform: translate(-50%,-50%);}
+
+    .add_employee form>div {
+    
+    flex-direction: column;
+   
+}
+.add_employee .part1_form {
+  
+    width: 100%;
+}
+.add_employee .part2_form {
+   
+    width: 100%;
+}
+.add_employee form input[type="file"] {
+   
+    width: 90%;
+}
+.add_employee{
+background-color: #000000;
+}
+
+/* about us */
+.about_container{
+    width: 90%;
+    grid-template-columns: 1fr;
+
+}
+.about-img{
+    grid-column: 1/2;
+    text-align: center;
+}
+.about-img > img{
+    width: 40%;
+    
+}
+.about-info{
+    grid-column: 1/2;
+}
+.about-contact{
+    grid-column: 1/2;
+
+}
+
+/* drop down */
+.drop_det{
+
+    display: inline;
+            font-weight: bold;
+    color: blue;
+}
+.hide_med,
+.controll_employee.hide_med.a{
+    display: none;
+}
+
+.drop-hide{
+    display: block;
+}
+.top_drop_table{
+    display: block;
+}
